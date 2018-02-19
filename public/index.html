@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="assets/index.css">
+<div>
+    <div class="header"><h1>User management</h1><span><button id="show_user_form_btn">Add user</button></span></div>
+    <div class="add_user_form">
+        <form class="userForm">
+            <input name="username" type="text" placeholder="username">
+            <input name="email" type="email" placeholder="email">
+            <input name="password" type="password" placeholder="password">
+            <button id="submit_user_btn" type="button">submit</button>
+        </form>
+    </div>
+    <div class="content">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password Hash</th>
+                <th>Created at</th>
+                <th>Updated at</th>
+            </tr>
+            </thead>
+            <tbody id="user_list">
+            </tbody>
+        </table>
+    </div>
+    <div class="pagination">
+        <button disabled="true" id="previous">Previous</button>
+        <button id="next">Next</button>
+        <label>
+            records on page:
+            <select id="limit">
+                <option value="5">5</option>
+                <option value="15">15</option>
+                <option value="25">25</option>
+            </select>
+        </label>
+        <label>
+            Enter page number
+            <input id="page_number_inpt" type="number" min="0">/of
+            <span id="pages_total">1000</span>
+            <button id="enter_page_btn">ok</button>
+        </label>
+    </div>
+</div>
+<script src="assets/index.js"></script>

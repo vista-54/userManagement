@@ -1,0 +1,21 @@
+
+table {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    display: inline-block;
+}
+
+.add_user_form {
+    display: none;
+    text-align: center;
+}
+
+#previous {
+    /*display: none;*/
+}

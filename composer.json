@@ -1,0 +1,15 @@
+{
+  "name": "vista/test-app",
+  "authors": [
+    {
+      "name": "Vitalii Stalynskyi",
+      "email": "vista-54@ukr.net"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
